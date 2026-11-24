@@ -1,3 +1,4 @@
+-- All Data below is fictional.
 insert into funds(fund_name, currency)
 values
 ('Nordic Equity fund', 'SEK'),
