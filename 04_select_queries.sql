@@ -41,3 +41,8 @@ on transactions.fund_id=funds.fund_id;
 select *
 from transactions
 where fund_id=2;
+
+select*
+from funds
+left join transactions
+ON funds.fund_id=transactions.fund_id;
