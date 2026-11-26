@@ -25,3 +25,19 @@ select *
 from transactions
 where fund_id=3
 And transaction_date> '2026-11-01';
+
+select
+transactions.transaction_id,
+funds.Fund_name,
+transactions.transaction_date,
+transactions.transaction_type,
+transactions. amount
+
+
+from transactions
+inner join funds
+on transactions.fund_id=funds.fund_id;
+
+select *
+from transactions
+where fund_id=2;
